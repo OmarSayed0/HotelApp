@@ -28,7 +28,7 @@ WhiteLagoon is a hotel reservation system designed to provide users with a seaml
   - Syncfusion (charts, grids, etc.)
 
 - **Backend**:  
-  - ASP.NET Core  
+  - ASP.NET Core MVC
   - Stripe API (Payment Gateway)  
 
 - **Database**:  

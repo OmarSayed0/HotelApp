@@ -40,10 +40,14 @@ WhiteLagoon is a hotel reservation system designed to provide users with a seaml
 
 This project is built following **Clean Architecture** principles, ensuring modularity and maintainability. The structure includes:
 WhiteLagoon/ 
-├── WhiteLagoon.Application/ # Application layer (services, contracts, shared logic) 
+├── WhiteLagoon.Application/ # Application layer (services, contracts, shared logic)
+
 ├── WhiteLagoon.Domain/ # Core domain entities and business logic 
+
 ├── WhiteLagoon.Infrastructure/ # Data access, migrations, repository, email services 
+
 ├── WhiteLagoon.Web/ # Presentation layer (UI, controllers, views, models)
+
 
 ### Key Layers
 
@@ -90,12 +94,6 @@ WhiteLagoon/
 2. **View Details**: Check room amenities, availability, and pricing.
 3. **Make a Booking**: Reserve rooms and process payments securely via Stripe.
 4. **Admin Panel** (if applicable): Use Syncfusion charts and grids for data visualization and insights.
-
----
-
-## 📸 Screenshots (Optional)
-
-Include screenshots here to showcase key features of the application.
 
 ---
 
